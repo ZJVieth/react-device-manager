@@ -53,8 +53,8 @@ export function useDevice(custom_setting) {
 
 
 // Renderer ----------------------------------------------
-export default function DeviceOption({ children, device, component }) {
-  if (device !== useDevice().current)
+export default function DeviceOption({ children, device, component, setting }) {
+  if (device !== useDevice(setting || null).current)
     return null
 
   if (component)

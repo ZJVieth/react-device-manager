@@ -1,6 +1,6 @@
 {
   "name": "react-device-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simply device-render switch for React.",
   "author": "ZJVieth",
   "license": "MIT",
