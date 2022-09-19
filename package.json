@@ -1,10 +1,19 @@
 {
   "name": "react-device-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simply device-render switch for React.",
   "author": "ZJVieth",
   "license": "MIT",
   "repository": "ZJVieth/react-device-manager",
+  "keywords": [
+    "react",
+    "devices",
+    "mobile",
+    "desktop",
+    "tablet",
+    "responsive",
+    "browser width"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
